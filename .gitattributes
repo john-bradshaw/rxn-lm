@@ -1,0 +1,4 @@
+data/processed/USPTO_mixed_augm/test.jsonl filter=lfs diff=lfs merge=lfs -text
+data/processed/USPTO_mixed_augm/train.jsonl filter=lfs diff=lfs merge=lfs -text
+data/processed/USPTO_mixed_augm/valid.jsonl filter=lfs diff=lfs merge=lfs -text
+scripts/training/results/uspto_augm-checkpoint-itr500000.zip filter=lfs diff=lfs merge=lfs -text

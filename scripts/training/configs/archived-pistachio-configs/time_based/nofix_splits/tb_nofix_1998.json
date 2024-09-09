@@ -1,0 +1,8 @@
+{
+  "train_file": "<path to no fix time splits>/train_val_splits/y1998/train.jsonl",
+  "validation_file": "<path to no fix time splits>/train_val_splits/y1998/valid.jsonl",
+  "test_file": "<path to no fix time splits>/train_val_splits/y1998/valid.jsonl",
+
+    "__**load_base_from_other_params": "./tb_nofix_1996.json"
+
+}

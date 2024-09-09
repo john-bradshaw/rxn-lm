@@ -1,0 +1,38 @@
+{
+  "direction": "forward",
+  "train_file": "<path to base split>/train.jsonl",
+  "validation_file": "<path to base split>/valid.jsonl",
+  "test_file": "<path to base split>/valid.jsonl",
+  "vocab_file": "<path to pistachio vocab>/vocab.json",
+  "dataloaders_num_workers": 10,
+  "do_train": true,
+  "do_pred": true,
+
+  "num_beams": 5,
+  "num_return_sequences": 5,
+
+  "encoder_layers": 4,
+  "encoder_ffn_dim": 2048,
+  "encoder_attention_heads": 8,
+
+  "decoder_layers": 4,
+  "decoder_ffn_dim": 2048,
+  "decoder_attention_heads": 8,
+
+  "d_model": 256,
+
+  "num_steps": 2000000,
+  "gradient_accumulation_steps": 8,
+  "train_batch_size": 16,
+  "val_batch_size": 8,
+  "learning_rate": 0.0003,
+  "lr_scheduler_type": "cosine",
+  "lr_scheduler_warmup_ga_steps": 2000,
+
+  "max_eval_samples_for_acc_logging": 250,
+  "max_eval_samples_for_acc_logging_test": 250,
+  "log_interval_for_eval_loss": 1000,
+  "log_interval_for_acc": 50000,
+  "chkpts_to_keep": 2
+}
+

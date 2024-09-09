@@ -1,0 +1,28 @@
+{
+  "checkpoint_path": [
+    "../../../training/results/<group name>/<run name>/checkpoints-best_loss"
+  ],
+  "loss_eval_files": [
+      "<path to all Suzuki split>/valid.jsonl",
+      "<path to all Suzuki split>/id_test.jsonl",
+      "<path to all Suzuki split>od_test.jsonl",
+      "<path to chloro Suzuki split>/valid.jsonl",
+      "<path to chloro Suzuki split>/id_test.jsonl",
+      "<path to chloro Suzuki split>/od_test.jsonl",
+      "<path to triflyloxy Suzuki split>/valid.jsonl",
+      "<path to triflyloxy Suzuki split>/id_test.jsonl",
+      "<path to triflyloxy Suzuki split>/od_test.jsonl"
+  ],
+  "acc_eval_files": [
+      "<path to all Suzuki split>/valid.jsonl",
+      "<path to all Suzuki split>/id_test.jsonl",
+      "<path to all Suzuki split>/od_test.jsonl",
+      "<path to chloro Suzuki split>/valid.jsonl",
+      "<path to chloro Suzuki split>/id_test.jsonl",
+      "<path to chloro Suzuki split>/od_test.jsonl",
+      "<path to triflyloxy Suzuki split>/valid.jsonl",
+      "<path to triflyloxy Suzuki split>/id_test.jsonl",
+      "<path to triflyloxy Suzuki split>/od_test.jsonl"
+  ],
+  "dataloaders_num_workers": 5
+}

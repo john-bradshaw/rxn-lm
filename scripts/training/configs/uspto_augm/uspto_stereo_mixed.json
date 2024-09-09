@@ -1,0 +1,41 @@
+{
+  "direction": "forward",
+  "train_file": "../../../../data/processed/USPTO_mixed_augm/train.jsonl",
+  "validation_file": "../../../../data/processed/USPTO_mixed_augm/valid.jsonl",
+  "test_file": "../../../../data/processed/USPTO_mixed_augm/test.jsonl",
+  "vocab_file": "../../../../data/processed/USPTO_mixed_augm/vocab_uspto_mixed_augm.json",
+  "dataloaders_num_workers": 10,
+  "do_train": true,
+  "do_pred": true,
+
+  "num_beams": 5,
+  "num_return_sequences": 5,
+
+  "encoder_layers": 7,
+  "encoder_ffn_dim": 1024,
+  "encoder_attention_heads": 32,
+
+  "decoder_layers": 11,
+  "decoder_ffn_dim": 1024,
+  "decoder_attention_heads": 4,
+
+  "d_model": 256,
+
+  "dropout": 0.2036459447310158,
+
+
+  "num_steps": 500000,
+  "gradient_accumulation_steps": 1,
+  "train_batch_size": 32,
+  "val_batch_size": 16,
+
+  "learning_rate": 0.00026402113347040717,
+  "lr_scheduler_type":"cosine",
+  "lr_scheduler_warmup_ga_steps": 1884.0429030885414,
+
+  "max_eval_samples_for_acc_logging": 250,
+  "max_eval_samples_for_acc_logging_test": 250,
+  "log_interval_for_eval_loss": 1000,
+  "log_interval_for_acc": 50000,
+  "chkpts_to_keep": 40
+}

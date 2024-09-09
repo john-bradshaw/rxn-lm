@@ -1,0 +1,26 @@
+name: rxn-lm
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - jsonschema
+  - jupyter
+  - matplotlib
+  - numpy
+  - python=3.8.12
+  - pytorch=1.10.2
+  - rdkit=2021.09.4
+  - scipy
+  - seaborn
+  - torchvision=0.11.3
+  - ignite==0.4.10
+  - pytest
+  - pip:
+    - huggingface-hub==0.4.0
+    - regex==2022.1.18
+    - tqdm==4.62.3
+    - transformers==4.16.2
+    - wandb
+    - tabulate
+    - ray[tune]==2.2.0

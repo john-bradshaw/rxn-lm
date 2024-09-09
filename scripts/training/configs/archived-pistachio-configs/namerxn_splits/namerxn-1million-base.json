@@ -1,0 +1,8 @@
+{
+  "train_file": "<path to base split>/train.jsonl",
+  "validation_file": "<path to base split>/valid.jsonl",
+  "test_file": "<path to base split>/valid.jsonl",
+
+  "__**load_base_from_other_params": "namexrxn-1million-besthypopt.json"
+}
+

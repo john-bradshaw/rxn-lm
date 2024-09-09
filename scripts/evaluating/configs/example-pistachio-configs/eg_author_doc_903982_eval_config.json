@@ -1,0 +1,18 @@
+{
+  "checkpoint_path": [
+    "../../../training/ray_results/<experiment_name>/<trial_path>/<checkpoint folder>"
+  ],
+  "loss_eval_files": [
+      "<path to author-doc splits>/valid.jsonl",
+      "<path to author-doc splits>/author_doc_903982/id_test.jsonl",
+      "<path to author-doc splits>/doc_od_test.jsonl",
+      "<path to author-doc splits>/author_od_test.jsonl"
+  ],
+  "acc_eval_files": [
+      "<path to author-doc splits>/valid.jsonl",
+      "<path to author-doc splits>/id_test.jsonl",
+      "<path to author-doc splits>/doc_od_test.jsonl",
+      "<path to author-doc splits>/author_od_test.jsonl"
+  ],
+  "dataloaders_num_workers": 5
+}

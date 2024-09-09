@@ -1,0 +1,8 @@
+{
+  "train_file": "<path to all Suzuki split>/train_and_finetune.jsonl",
+  "validation_file": "<path to all Suzuki split>/valid.jsonl",
+  "test_file": "<path to all Suzuki split>/valid.jsonl",
+
+  "__**load_base_from_other_params": "namexrxn-1million-besthypopt.json"
+}
+

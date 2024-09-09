@@ -1,0 +1,92 @@
+{
+  "gradient_accumulation_steps": {
+    "type": "choice",
+    "values": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "comment": "we will adjust the batch size via adjusting this..."
+  },
+  "learning_rate": {
+    "type": "loguniform",
+    "values": [
+      1e-5,
+      1e-2
+    ]
+  },
+  "lr_scheduler_warmup_ga_steps": {
+    "type": "uniform",
+    "values": [
+      100,
+      10000
+    ]
+  },
+  "encoder_layers": {
+    "type": "randint",
+    "values": [
+      2,
+      12
+    ]
+  },
+  "encoder_ffn_dim": {
+    "type": "choice",
+    "values": [
+      512,
+      1024,
+      2048,
+      4096
+    ]
+  },
+  "encoder_attention_heads": {
+    "type": "choice",
+    "values": [
+      4,
+      8,
+      16,
+      32
+    ]
+  },
+  "decoder_layers": {
+    "type": "randint",
+    "values": [
+      2,
+      12
+    ]
+  },
+  "decoder_ffn_dim": {
+    "type": "choice",
+    "values": [
+      512,
+      1024,
+      2048,
+      4096
+    ]
+  },
+  "decoder_attention_heads": {
+    "type": "choice",
+    "values": [
+      4,
+      8,
+      16,
+      32
+    ]
+  },
+  "d_model": {
+    "type": "choice",
+    "values": [
+      128,
+      256,
+      512,
+      1024
+    ]
+  },
+  "dropout": {
+    "type": "uniform",
+    "values": [
+      0.0,
+      0.6
+    ]
+  }
+}
