@@ -1,5 +1,5 @@
 # rxn-lm: Reaction Language Models
-Code to accompany our paper: _XXX_ (see also the repository [here](https://github.com/john-bradshaw/rxn-splits) for splitting code).
+Code to accompany our paper: Challenging reaction prediction models to generalize to novel chemistry (see also the repository [here](https://github.com/john-bradshaw/rxn-splits) for splitting code).
 This repo contains a sequence-to-sequence [1,2,3] model for reaction prediction using [Hugging Face](https://huggingface.co/) [4].
 **Note this repo makes use of [Git LFS](https://git-lfs.com/) for storing large files.**
 
