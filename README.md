@@ -3,7 +3,7 @@ Code to accompany our paper: Challenging reaction prediction models to generaliz
 This repo contains a sequence-to-sequence [1,2,3] model for reaction prediction using [Hugging Face](https://huggingface.co/) [4].
 **Note this repo makes use of [Git LFS](https://git-lfs.com/) for storing large files.**
 
-![Cartoon of an encoder-decoder language model architecture being used for reaction prediction.](docs/encoder-decoder.png)
+![Cartoon of an encoder-decoder language model architecture being used for reaction prediction.](docs/transformer.png)
 
 
 ## 1. Installation/Setup
